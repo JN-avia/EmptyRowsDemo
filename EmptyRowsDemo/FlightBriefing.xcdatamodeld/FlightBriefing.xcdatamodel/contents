@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="20B29" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Flight" representedClassName="Flight" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="flightInfo" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="FlightInfo" inverseName="flight" inverseEntity="FlightInfo"/>
+    </entity>
+    <entity name="FlightInfo" representedClassName="FlightInfo" syncable="YES">
+        <attribute name="flightNbr" optional="YES" attributeType="String"/>
+        <attribute name="isOnline" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lastEdit" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="uniqueID" attributeType="String"/>
+        <relationship name="flight" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Flight" inverseName="flightInfo" inverseEntity="Flight"/>
+    </entity>
+    <elements>
+        <element name="Flight" positionX="232" positionY="189" width="128" height="59"/>
+        <element name="FlightInfo" positionX="421" positionY="189" width="128" height="119"/>
+    </elements>
+</model>

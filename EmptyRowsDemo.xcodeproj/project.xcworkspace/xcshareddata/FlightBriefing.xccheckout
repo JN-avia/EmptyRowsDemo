@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5EB1545E-220A-4FFA-93A4-B3D9AEBFF14F</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>917674de-1acc-f341-97a1-c73e2d038745++505</key>
+		<string>https://subversion.assembla.com/svn/jnavionics.MyLibrary/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>917674de-1acc-f341-97a1-c73e2d038745++505</key>
+		<string>MyLibrary/</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>917674de-1acc-f341-97a1-c73e2d038745++505</key>
+		<string>https://subversion.assembla.com/svn/jnavionics.MyLibrary</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://subversion.assembla.com/svn/jnavionics.MyLibrary/trunk</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>917674de-1acc-f341-97a1-c73e2d038745++505</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>917674de-1acc-f341-97a1-c73e2d038745++505</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyLibrary</string>
+		</dict>
+	</array>
+</dict>
+</plist>
